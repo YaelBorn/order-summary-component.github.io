@@ -1,5 +1,43 @@
 body {
 	font-family: "Red Hat Display", sans-serif;
+	background-color: #D6E1FF;
 }
 
-/* Testing */
+main {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	max-width: 450px;
+	width: 100%;
+	background-color: white;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 900;
+	margin-top: 45px;
+	font-size: 28px;
+	color: #1F2E55;
+}
+
+p {
+	text-align: center;	
+	font-weight: 500;
+	font-size: 16px;
+	color: #717FA6;
+	margin-top: 17px;
+	max-width: 354px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 26px;
+}
+
+.card2 {
+	background-color: #F7F9FF;
+}

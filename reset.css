@@ -52,5 +52,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-/* START OF CUSTOM STYLES */
+img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
