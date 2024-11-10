@@ -26,7 +26,7 @@ h1 {
 	color: #1F2E55;
 }
 
-p {
+.information {
 	text-align: center;	
 	font-weight: 500;
 	font-size: 16px;
@@ -42,6 +42,10 @@ p {
 	width: 100%;
 	margin: 20px auto 0px auto;
 	border-radius: 11px;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	padding: 25px 24px 25px 24px;
 }
 
 .payment {
@@ -77,4 +81,50 @@ p {
 
 .cancel:hover {
 	color: #1F2E55;
+}
+
+.note{
+  width: 45px;
+  height: 45px;
+}
+
+.change {
+	margin-left: auto;
+	font-weight: 700;
+	font-size: 14px;
+	padding-bottom: 1px;
+	border-bottom: 2px solid;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.change:hover {
+	color: #766CF1;
+	border-bottom: none;
+}
+
+.change:visited {
+	color: #382AE1;
+}
+
+.change:visited:hover {
+	color: #766CF1;
+}
+
+.plan_info {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.plan_name {
+	color: #1F2E55;
+	font-size: 16px;
+	font-weight: 900;
+}
+
+.plan_price {
+	color: #717FA6;
+	font-size: 16px;
+	font-weight: 600;
 }
